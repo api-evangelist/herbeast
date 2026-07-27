@@ -1,8 +1,25 @@
 aid: herbeast
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/herbeast.png
 name: Herbeast
-description: Herbeast is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Herbeast is a sustainable skin care and lifestyle brand based in China, backed by Lightspeed
+  Venture Partners. The company explores the application of Chinese herbal essence to the skin, grounding
+  its formulations in the concepts and technical principles of biomedicine. Founded and led by CEO Yisa
+  He with Chief Scientist and co-founder Yanjing Bai, Herbeast operates as a consumer skin care and
+  lifestyle products brand rather than an API-first technology provider. As of this enrichment pass it
+  publishes no public developer portal, API documentation, or machine-readable API surface; its only
+  observed web property (herbeast.com) resolves to a deactivated Shopify storefront. It is retained in
+  the API Evangelist network as a Lightspeed portfolio identity record, not as an active API producer.
 url: https://raw.githubusercontent.com/api-evangelist/herbeast/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +27,37 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-is-api-provider: false
+x-identity-source: https://lsvp.com/company/herbeast/
+x-leadership:
+- name: Yisa He
+  role: CEO & Founder
+- name: Yanjing Bai
+  role: Chief Scientist & Co-Founder
+x-website: https://herbeast.com
+x-website-status: 402 deactivated Shopify store (probed 2026-07-19)
+x-country: China
+x-industry: Skin Care / Cosmetics / Consumer Lifestyle
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Skin Care
+- Cosmetics
+- Consumer
+- Lifestyle
+- Biomedicine
+- China
+- Beauty
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
