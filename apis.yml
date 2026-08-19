@@ -38,7 +38,7 @@ x-website: https://herbeast.com
 x-website-status: 402 deactivated Shopify store (probed 2026-07-19)
 x-country: China
 x-industry: Skin Care / Cosmetics / Consumer Lifestyle
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
